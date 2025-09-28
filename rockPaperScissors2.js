@@ -1,5 +1,5 @@
 
-// const computerChoice = "rock"
+const computerChoice = "rock"
 
 while(computerChoice){
     let userChoice = prompt("rock, paper or scissors");
