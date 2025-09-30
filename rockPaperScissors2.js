@@ -1,7 +1,7 @@
 
 const computerChoice = "rock"
 
-while(computerChoice){
+while(true){
     let userChoice = prompt("rock, paper or scissors");
 
     
