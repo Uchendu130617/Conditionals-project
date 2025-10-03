@@ -31,35 +31,41 @@
 // console.log(e)
 // }
 
+let x = 50;
+while(x < 100){
+    x += 10
+    console.log(x)
+}
+
 // let b = 50;
 // while(b > 5){
 //     b -= 5
 //     console.log(b)
 // }
 
-let secretNumber = 25;
+// let secretNumber = 25;
 
-while(secretNumber){    
-let userGuess = prompt("Guess a number");
+// while(secretNumber){    
+// let userGuess = prompt("Guess a number");
 
-if(userGuess < secretNumber){
-    alert(`Your guess is too low`);
-    console.log(`Too low`);
-}
+// if(userGuess < secretNumber){
+//     alert(`Your guess is too low`);
+//     console.log(`Too low`);
+// }
 
-else if(userGuess > secretNumber){
-    alert(`Your guess is too high`);
-    console.log(`Tow high`);
-}
+// else if(userGuess > secretNumber){
+//     alert(`Your guess is too high`);
+//     console.log(`Tow high`);
+// }
 
-else if(userGuess == secretNumber){
-    alert(`Your guess is correct`);
-    console.log(`correct`);
-    break
-}
+// else if(userGuess == secretNumber){
+//     alert(`Your guess is correct`);
+//     console.log(`correct`);
+//     break
+// }
 
-else{
-    alert("Invalid input");
-    console.log(`Invalid`);
-}
-}
+// else{
+//     alert("Invalid input");
+//     console.log(`Invalid`);
+// }
+// }
